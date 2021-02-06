@@ -1,0 +1,164 @@
+.body{
+    max-width: 1366px;
+    margin: auto;
+}
+.logo {
+    font-family:Poppins-bold ;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.header_wraper{
+    background-image: url(../img/header_background.jpg);
+    max-width: 1366px;
+    width: 100%;
+    height: 324px;
+    margin: auto 0;
+    align-items: center;
+   
+}
+
+.nav_ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+    
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1088px;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    padding-top: 30px;
+
+
+}
+.nav_a {
+    margin-left: 30px;
+    color: #FFFFFF;
+    font-family:Poppins-bold ;
+    font-size: 14px;
+}
+.contact{
+    display: flex;
+    color: #FFFFFF;
+    font-family:Poppins-bold ;
+    font-size: 42px;
+    max-width: 1088px;
+    width: 100%;
+    margin: auto;
+    margin-top: 101px;
+}
+.contact1 {
+    display: flex;
+ text-decoration: none;
+    font-family:Poppins-bold ;
+    font-size: 14px;
+    max-width: 1088px;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+
+}
+.home_a{
+    
+    color: white;
+}
+
+.contact_aa{
+    color: #FFFFFF;
+}
+.contact_a{
+    color: #FFFFFF;
+}
+.map{ 
+    max-width: 1088px;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    height: 286px;
+
+}
+.contact_b {
+    
+    color: black;
+    font-family:Poppins-bold ;
+    font-size: 42px;
+    max-width: 378px;
+    width: 100%;
+    
+    margin-top: 76px;
+    
+    
+    
+
+}
+
+
+
+
+.textarea {
+
+    display: flex;
+    max-width: 720px;
+    height: 288px;
+    width: 100%;
+    border-color: #E8E8E8;
+    resize: none;
+    padding: 20px
+    
+}
+.textarea::placeholder{
+    color:#CECECE;
+    font-size: 13px;
+    font-family:Poppins-bold ;
+}
+
+
+.text_wrap {
+    
+    max-width: 720px;
+    width: 100%;
+}
+.form-wraper {
+    width: 358px;
+}
+.section2 {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.input-wraper{
+    display: flex;
+    max-width: 332px;
+    width: 100%;
+    height: 60px;
+    background-color:#F8F8F8;
+    font-family:Poppins-bold;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-color:#CECECE ;
+    border-style: groove;
+    margin-left: 10px;
+    
+
+}
+.button-wraper {
+    
+    max-width: 332px;
+    width: 100%;
+    height: 60px;
+    background-color: #5863F8;
+    color: #FFFFFF;
+    margin-left: 10px;
+    text-align: center;
+    
+}
+.burger {
+    width: 50px;
+    height: 50px;
+    display: none;
+}
